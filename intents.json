@@ -1,0 +1,472 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hi", "hello", "hey", "good morning", "good evening",
+        "hey there", "hi bot", "hello doctor", "howdy",
+        "good afternoon", "hi there", "greetings", "what's up"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?"
+      ]
+    },
+
+    {
+      "tag": "fever",
+      "patterns": [
+        "i have fever", "high temperature", "body is hot",
+        "feeling feverish", "temperature 102", "mild fever",
+        "fever since yesterday", "continuous fever",
+        "my body feels warm", "i have a high temp",
+        "running a fever", "temperature is high", "slight fever"
+      ],
+      "responses": [
+        "You may have a fever. Stay hydrated and rest."
+      ]
+    },
+
+    {
+      "tag": "headache",
+      "patterns": [
+        "headache", "my head hurts", "pain in head",
+        "migraine", "severe headache", "pressure in head",
+        "head pain with stress", "throbbing headache",
+        "head is pounding", "pain behind eyes", "temple pain",
+        "constant headache", "headache since morning"
+      ],
+      "responses": [
+        "It could be due to stress, dehydration, or lack of sleep."
+      ]
+    },
+
+    {
+      "tag": "cold",
+      "patterns": [
+        "runny nose", "cold", "sneezing a lot",
+        "blocked nose", "nasal congestion",
+        "nose is running", "mild cold", "i have a cold",
+        "sneezing continuously", "stuffy nose", "nose is blocked",
+        "catching a cold", "feeling cold and sneezy"
+      ],
+      "responses": [
+        "It seems like a common cold. Stay warm and drink fluids."
+      ]
+    },
+
+    {
+      "tag": "cough",
+      "patterns": [
+        "coughing", "dry cough", "continuous cough",
+        "wet cough", "cough with mucus", "cough for 3 days",
+        "i keep coughing", "persistent cough", "coughing at night",
+        "cough with phlegm", "mild cough", "cough won't stop",
+        "coughing since yesterday"
+      ],
+      "responses": [
+        "You may have a cough. Try warm fluids and rest."
+      ]
+    },
+
+    {
+      "tag": "stomach_pain",
+      "patterns": [
+        "stomach pain", "abdominal pain", "pain in stomach",
+        "cramps in stomach", "lower abdomen pain",
+        "stomach ache after eating", "my tummy hurts",
+        "pain in belly", "upper stomach pain", "gastric pain",
+        "stomach hurts badly", "pain around navel", "stomach discomfort"
+      ],
+      "responses": [
+        "It could be indigestion or infection. Avoid heavy food."
+      ]
+    },
+
+    {
+      "tag": "vomiting",
+      "patterns": [
+        "vomiting", "nausea", "i feel nauseous", "feeling like throwing up",
+        "throwing up", "feeling nauseous", "vomiting after eating",
+        "i puked", "keep vomiting", "vomited multiple times",
+        "urge to vomit", "sick to my stomach", "nausea and vomiting"
+      ],
+      "responses": [
+        "Stay hydrated. If it continues, consult a doctor."
+      ]
+    },
+
+    {
+      "tag": "diarrhea",
+      "patterns": [
+        "loose motion", "diarrhea", "frequent stools",
+        "watery stool", "loose stools multiple times",
+        "stomach upset with diarrhea", "going to toilet frequently",
+        "loose potty", "runny stool", "stomach running",
+        "watery bowel", "diarrhea since morning", "loose motion 5 times"
+      ],
+      "responses": [
+        "Drink ORS and stay hydrated."
+      ]
+    },
+
+    {
+      "tag": "fatigue",
+      "patterns": [
+        "feeling tired", "low energy", "fatigue",
+        "weakness", "very tired", "no energy",
+        "feeling exhausted", "always sleepy", "body feels heavy",
+        "too weak to work", "constant tiredness", "drained out",
+        "no strength left"
+      ],
+      "responses": [
+        "It may be due to lack of sleep or nutrition."
+      ]
+    },
+
+    {
+      "tag": "covid",
+      "patterns": [
+        "fever and cough", "loss of smell", "loss of taste",
+        "covid symptoms", "fever with breathing issue",
+        "dry cough and fever", "corona symptoms", "covid 19",
+        "i lost my smell", "i lost my taste", "possible covid",
+        "tested positive", "covid positive symptoms"
+      ],
+      "responses": [
+        "These may be COVID-like symptoms. Please get tested."
+      ]
+    },
+
+    {
+      "tag": "flu",
+      "patterns": [
+        "body ache and fever", "chills and fever",
+        "fever with body pain", "flu symptoms",
+        "cold with fever and headache", "feeling feverish with chills",
+        "shivering with fever", "muscle pain and fever",
+        "joint pain and fever", "flu like symptoms",
+        "whole body hurts", "fever chills and cough"
+      ],
+      "responses": [
+        "You may have flu. Rest and take fluids."
+      ]
+    },
+
+    {
+      "tag": "allergy",
+      "patterns": [
+        "skin rash", "itching", "allergy symptoms",
+        "red skin", "itchy skin", "allergic reaction",
+        "hives on skin", "skin is red and itchy", "dust allergy",
+        "food allergy", "swollen face", "sneezing due to allergy",
+        "watery eyes allergy"
+      ],
+      "responses": [
+        "This may be an allergic reaction."
+      ]
+    },
+
+    {
+      "tag": "infection",
+      "patterns": [
+        "infection", "swelling with pain",
+        "pus", "infected wound", "pain with swelling",
+        "wound is infected", "cut is infected", "injury got infected",
+        "pus coming out", "swollen and red", "wound not healing",
+        "fever from infection", "infected area"
+      ],
+      "responses": [
+        "It could be an infection. Consult a doctor if severe."
+      ]
+    },
+
+    {
+      "tag": "dehydration",
+      "patterns": [
+        "feeling dizzy", "I feel dizzy", "dry mouth", "dehydrated",
+        "lightheaded", "not drinking water", "weak due to dehydration",
+        "lips are dry", "very thirsty", "no water intake",
+        "feeling faint", "dizzy and weak", "mouth feels dry"
+      ],
+      "responses": [
+        "Drink plenty of fluids."
+      ]
+    },
+
+    {
+      "tag": "bp",
+      "patterns": [
+        "high blood pressure", "bp high",
+        "hypertension", "bp problem",
+        "blood pressure is high", "my bp is elevated",
+        "bp reading is high", "feeling pressure in head",
+        "bp not in control", "systolic pressure high",
+        "diastolic pressure high", "bp fluctuating"
+      ],
+      "responses": [
+        "Monitor BP and consult a doctor."
+      ]
+    },
+
+    {
+      "tag": "diabetes",
+      "patterns": [
+        "high sugar", "diabetes symptoms",
+        "frequent urination", "high glucose",
+        "blood sugar problem", "sugar level is high",
+        "diabetic symptoms", "fasting sugar high",
+        "postprandial sugar high", "sugar after eating is high",
+        "always thirsty due to sugar", "sugar not in control"
+      ],
+      "responses": [
+        "Check blood sugar levels."
+      ]
+    },
+
+    {
+      "tag": "heart",
+      "patterns": [
+        "chest pain", "heart pain",
+        "tight chest", "pressure in chest",
+        "pain in left chest", "heart is racing",
+        "chest tightness", "squeezing chest pain",
+        "pain radiating to arm", "irregular heartbeat",
+        "heart palpitations", "chest pain with sweating"
+      ],
+      "responses": [
+        "This could be serious. Seek immediate medical help."
+      ]
+    },
+
+    {
+      "tag": "breathing",
+      "patterns": [
+        "shortness of breath",
+        "difficulty breathing",
+        "cant breathe properly",
+        "breathing problem", "out of breath",
+        "gasping for air", "wheezing",
+        "breath is shallow", "breathing is hard",
+        "lungs feel tight", "suffocating feeling",
+        "cant take deep breath"
+      ],
+      "responses": [
+        "Please seek medical attention immediately."
+      ]
+    },
+
+    {
+      "tag": "general",
+      "patterns": [
+        "i feel sick", "not feeling well",
+        "unwell", "not okay",
+        "something feels wrong", "i dont feel good",
+        "feeling off", "body feels strange",
+        "something is not right", "feeling weird",
+        "generally unwell", "not feeling myself"
+      ],
+      "responses": [
+        "Can you describe your symptoms in more detail?"
+      ]
+    },
+
+    {
+      "tag": "anxiety",
+      "patterns": [
+        "i feel anxious", "anxiety attack", "feeling nervous",
+        "constant worry", "i am overthinking", "panic attack",
+        "heart racing with anxiety", "feeling restless",
+        "i cant stop worrying", "anxious all the time",
+        "nervousness", "i feel panicky", "anxiety and stress"
+      ],
+      "responses": [
+        "It sounds like anxiety. Try deep breathing and speak to a mental health professional if it persists."
+      ]
+    },
+
+    {
+      "tag": "depression",
+      "patterns": [
+        "i feel depressed", "feeling hopeless", "no motivation",
+        "i dont want to do anything", "feeling empty inside",
+        "lost interest in everything", "feeling sad all the time",
+        "i cry a lot", "feeling worthless", "nothing makes me happy",
+        "i feel low", "deep sadness", "i feel like giving up"
+      ],
+      "responses": [
+        "I'm sorry to hear that. Please consider speaking to a mental health professional. You are not alone."
+      ]
+    },
+
+    {
+      "tag": "stress",
+      "patterns": [
+        "i am stressed", "too much stress", "feeling overwhelmed",
+        "work stress", "stress and tension", "mentally exhausted",
+        "i cant handle pressure", "stressed out", "too much on my mind",
+        "burnout", "feeling burned out", "mental pressure",
+        "stress is affecting my health"
+      ],
+      "responses": [
+        "Stress can affect your health. Try to rest, and consider talking to someone you trust or a counselor."
+      ]
+    },
+
+    {
+      "tag": "sleep",
+      "patterns": [
+        "cant sleep", "insomnia", "trouble sleeping",
+        "not getting enough sleep", "waking up at night",
+        "sleep problems", "difficulty falling asleep",
+        "i sleep too much", "oversleeping", "poor sleep quality",
+        "restless sleep", "nightmares", "i feel sleepy all day"
+      ],
+      "responses": [
+        "Sleep issues can affect your overall health. Maintain a regular sleep schedule and avoid screens before bed."
+      ]
+    },
+
+    {
+      "tag": "emergency",
+      "patterns": [
+        "call ambulance", "emergency", "someone collapsed",
+        "person is unconscious", "heart attack happening",
+        "severe bleeding", "someone is not breathing",
+        "need immediate help", "stroke symptoms",
+        "person fell down and not waking up",
+        "severe chest pain emergency", "overdose emergency",
+        "accident and injury"
+      ],
+      "responses": [
+        "This is an emergency! Call 112 or your local emergency number immediately!"
+      ]
+    },
+
+    {
+      "tag": "suicide",
+      "patterns": [
+        "i want to die", "thinking about suicide",
+        "i want to end my life", "suicidal thoughts",
+        "i dont want to live", "thinking of harming myself",
+        "self harm", "i want to hurt myself",
+        "life is not worth living", "i feel like disappearing",
+        "no reason to live", "i want to give up on life"
+      ],
+      "responses": [
+        "Please reach out for help immediately. Call iCall at 9152987821 or Vandrevala Foundation at 1860-2662-345. You are not alone and help is available."
+      ]
+    },
+
+    {
+      "tag": "burns",
+      "patterns": [
+        "i got burned", "burn on skin", "fire burn",
+        "hot water burn", "skin is burned", "burn from stove",
+        "my hand got burned", "burn blister", "minor burn",
+        "first degree burn", "second degree burn", "burn mark on skin",
+        "skin is red from burn", "scalded by hot liquid"
+      ],
+      "responses": [
+        "For minor burns, cool the area under running water for 10-15 minutes. Do not apply ice or toothpaste. Cover with a clean bandage. If severe, seek medical help immediately."
+      ]
+    },
+
+    {
+      "tag": "cuts",
+      "patterns": [
+        "i got a cut", "bleeding from cut", "knife cut",
+        "deep cut on finger", "cut on hand", "wound is bleeding",
+        "small cut", "cut while cooking", "razor cut",
+        "cut won't stop bleeding", "minor cut", "cut on leg",
+        "bleeding wound", "sharp object cut"
+      ],
+      "responses": [
+        "Clean the cut with water, apply gentle pressure to stop bleeding, and cover with a bandage. If the cut is deep or won't stop bleeding, seek medical attention."
+      ]
+    },
+
+    {
+      "tag": "bruise",
+      "patterns": [
+        "i have a bruise", "bruised my leg", "dark mark after hit",
+        "blue black mark on skin", "swollen bruise", "hit and bruised",
+        "bruise after fall", "painful bruise", "bruising easily",
+        "mark after injury", "contusion", "bump after hitting",
+        "bruise on arm"
+      ],
+      "responses": [
+        "Apply an ice pack wrapped in cloth to the bruise for 15-20 minutes. Elevate the area if possible. Bruises usually heal on their own in 1-2 weeks."
+      ]
+    },
+
+    {
+      "tag": "sprain",
+      "patterns": [
+        "sprained ankle", "twisted my ankle", "sprained wrist",
+        "joint is sprained", "twisted foot", "ankle sprain",
+        "wrist sprain", "knee sprain", "sprain after fall",
+        "sprained while playing", "ankle is swollen after twist",
+        "ligament sprain", "joint pain after twist"
+      ],
+      "responses": [
+        "Rest the area, apply ice, compress with a bandage, and elevate the limb (RICE method). Avoid putting weight on it. See a doctor if swelling or pain is severe."
+      ]
+    },
+
+    {
+      "tag": "nosebleed",
+      "patterns": [
+        "my nose is bleeding", "nosebleed", "blood from nose",
+        "nose started bleeding", "sudden nosebleed",
+        "bleeding from nostril", "frequent nosebleeds",
+        "nose bleeds often", "blood coming from nose",
+        "nosebleed won't stop", "minor nosebleed"
+      ],
+      "responses": [
+        "Sit upright and lean slightly forward. Pinch the soft part of your nose for 10-15 minutes. Do not tilt your head back. If bleeding doesn't stop, seek medical help."
+      ]
+    },
+
+    {
+      "tag": "insect_bite",
+      "patterns": [
+        "insect bite", "mosquito bite", "bee sting",
+        "ant bite", "wasp sting", "bug bite",
+        "spider bite", "bitten by insect", "itchy bug bite",
+        "swollen after bite", "redness after insect bite",
+        "sting from bee", "bite mark on skin"
+      ],
+      "responses": [
+        "Clean the area with soap and water. Apply a cold pack to reduce swelling. If you experience severe swelling, difficulty breathing, or allergic reaction, seek emergency help immediately."
+      ]
+    },
+
+    {
+      "tag": "splinter",
+      "patterns": [
+        "splinter in finger", "wood splinter", "thorn stuck in skin",
+        "something stuck in my skin", "glass in my finger",
+        "small piece in skin", "splinter hurts",
+        "how to remove splinter", "needle stuck in skin",
+        "foreign object in skin"
+      ],
+      "responses": [
+        "Clean the area and use sterilized tweezers to gently remove the splinter. Clean again after removal and cover with a bandage. If it's deep or infected, see a doctor."
+      ]
+    },
+
+    {
+      "tag": "eye_irritation",
+      "patterns": [
+        "something in my eye", "eye is red", "eye irritation",
+        "dust in eye", "eye is watering", "eye burning",
+        "itchy eyes", "eye pain", "foreign object in eye",
+        "eye feels scratchy", "eye infection", "pink eye",
+        "swollen eyelid"
+      ],
+      "responses": [
+        "Rinse your eye gently with clean water. Do not rub your eye. If irritation persists or vision is affected, see a doctor immediately."
+      ]
+    }
+  ]
+}
