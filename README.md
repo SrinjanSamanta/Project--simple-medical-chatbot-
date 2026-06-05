@@ -12,7 +12,7 @@ A Python-based conversational AI agent designed to respond to user queries regar
 * `chat.py` - The execution script used to run and interact with the chatbot in real-time.
 * `intents.json` - The dataset containing patterns, tags, and corresponding medical responses.
 
-## 💻 How to Run
+## How to Run
 1. Ensure you have Python installed.
 2. Train the model first:
 ```bash
